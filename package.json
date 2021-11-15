@@ -7,6 +7,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
+    "test:report": "npm run test:coverage && serve ./coverage/lcov-report",
     "test:debug": "jest --watch --detectOpenHandles"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
-    "jest": "^27.3.1"
+    "jest": "^27.3.1",
+    "serve": "^13.0.2"
   }
 }

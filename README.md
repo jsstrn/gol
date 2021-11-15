@@ -43,6 +43,12 @@ Run all your tests with every change
 npm run test:watch
 ```
 
+Run test coverage report and visit [localhost:3000](http://localhost:3000/)
+
+```
+npm run test:report
+```
+
 ## Development
 
 To add a tag to a commit
