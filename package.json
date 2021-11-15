@@ -1,11 +1,13 @@
 {
-  "name": "Game of Life",
+  "name": "game-of-life",
   "version": "1.0.0",
   "description": "Conway's Game of Life",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:debug": "jest --watch --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
